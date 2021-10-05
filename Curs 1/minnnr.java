@@ -26,7 +26,7 @@ public class Devin {
             if (min>a[i]) { 
                 min = a[i];
             }
-            i += 1;
+            i += 1; 
         }
         System.out.println("Numarul minim este " + min);
     }

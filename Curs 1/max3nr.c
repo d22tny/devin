@@ -20,4 +20,20 @@ m ← 0
 
 scrie m
 
+--------------------------------------------
+
+citeste a,b,c
+
+m ← 0
+
+┌daca  m<b atunci
+│   m ← b
+└■
+
+┌daca  m<c atunci
+│   m ← c
+└■
+
+scrie m
+
 */

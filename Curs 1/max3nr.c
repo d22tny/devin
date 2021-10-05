@@ -24,7 +24,7 @@ scrie m
 
 citeste a,b,c
 
-m ← 0
+m ← a
 
 ┌daca  m<b atunci
 │   m ← b

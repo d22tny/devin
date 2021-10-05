@@ -23,7 +23,7 @@ public class Devin {
         int min;
         min = a[1];
         while (i<=n) {
-            if (min>a[i]) {
+            if (min>a[i]) { 
                 min = a[i];
             }
             i += 1;

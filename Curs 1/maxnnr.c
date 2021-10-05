@@ -20,7 +20,7 @@ citeste n
 citeste x
 max ← x
 
-i ← 2
+i ← 1
 
 ┌cat timp i<=n executa
 │    citeste x

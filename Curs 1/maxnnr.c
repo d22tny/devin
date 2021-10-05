@@ -14,4 +14,20 @@ i ← 2
 
 scrie max
 
+------------------------------
+
+citeste n
+citeste x
+max ← x
+
+i ← 2
+
+┌cat timp i<=n executa
+│    citeste x
+│    ┌daca max<x atunci
+│    │    max ← x
+│    └■
+│    i ← i + 1
+└■
+
 */

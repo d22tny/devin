@@ -1,0 +1,17 @@
+/* 
+
+Pseudo
+
+citsete n numere a1,a2, ..., an
+max ← a1
+i ← 2
+
+┌cat timp i <= n executa
+│    ┌daca max < ai atunci max ← a
+│    └■
+│    i ← i + 1
+└■
+
+scrie max
+
+*/

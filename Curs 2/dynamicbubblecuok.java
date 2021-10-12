@@ -1,6 +1,5 @@
 package devin;
-import java.util.*;
-import java.lang.Math;
+import java.util.Scanner;
 /**
  *
  * @author d22tny
@@ -15,15 +14,15 @@ public class Devin {
         Scanner theInput = new Scanner(System.in);
         int y = theInput.nextInt();
         int numere[] = new int[y]; 
-        for(int x=0; x< y; x++) {
-            System.out.println("Introduceti nr de pe pozitia ["+x+"]");
+        for(int pozitie=0; pozitie< y; pozitie++) {
+            System.out.println("Introduceti nr de pe pozitia ["+pozitie+"]");
             int numar = theInput.nextInt();
-            numere[x] = numar;
+            numere[pozitie] = numar;
         }
         
-        int n = numere.length;           
+        int length = numere.length;           
         System.out.println("Numerele nesortate: ");  
-        for(int i=0; i < n; i++){  
+        for(int i=0; i < length; i++){  
                 System.out.print(numere[i] + " ");  
         }  
         System.out.println();  
@@ -32,7 +31,7 @@ public class Devin {
         int aux = 0;  
         while (ok == true) {
             ok = false;
-            for(int j=1; j < (n-1); j++){  
+            for(int j=1; j < length; j++){  
                 if(numere[j-1] > numere[j]){  
                     aux = numere[j-1];  
                     numere[j-1] = numere[j];  
@@ -43,7 +42,7 @@ public class Devin {
         }
 
         System.out.println("Numerele sortate:");  
-        for(int i=0; i < n; i++){  
+        for(int i=0; i < length; i++){  
             System.out.print(numere[i] + " ");  
         }  
     }

@@ -12,6 +12,7 @@ public class Devin {
         double width = 4.5;
         double height = 7.9;
         System.out.println("Aria este: " + width*height);
+        System.out.println("Perimetrul este: " + (2*width + 2*height));
     }
     
 }
